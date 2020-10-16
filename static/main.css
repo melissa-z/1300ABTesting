@@ -9,14 +9,17 @@ header {
 }
 
 .vendor-wrapper {
+  margin-right: 30px;
 	justify-content: left;
 	padding-left: 40px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-bottom: 20px;
+  min-width: 300px;
 }
 
 .vendor-photo {
-	max-width: 200px;
+  min-width: 200px;
+	max-width: 300px;
 	max-height: 150px;
 	padding-right: 20px;
 }
@@ -39,7 +42,7 @@ header {
   border-radius: 999px;
   line-height: .75em;
   color: white;
-  color: #DF0000;
+  color: #337ab7;
   text-align: center;
   min-width: 2em;
   font-weight: bold;
@@ -47,9 +50,20 @@ header {
   border-style: solid;
 }
 .fa-circle {
-  color: #DF0000;
+  color: #337ab7;
 }
 
 .red-cart {
-	color: #DF0000;
+	color: #337ab7;
+}
+
+#cart-wrapper {
+  position: absolute;
+  width: 100px;
+  right: 5%;
+  top: 5%;
+}
+
+.image-wrapper {
+  height: 170px;
 }
